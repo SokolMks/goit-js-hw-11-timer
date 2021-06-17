@@ -55,7 +55,7 @@
     }   
   }
   
-  const timer = new Timer ({
+  const timer = new EndTimer ({
     selector: '#timer-1',
     targetDate: new Date('Jul 17, 2021'),
   })
